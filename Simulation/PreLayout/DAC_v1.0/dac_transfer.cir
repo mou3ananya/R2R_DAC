@@ -1,0 +1,72 @@
+*DAC R-2R
+.subckt DAC 1 1x 0 vref D9 D8 D7 D6 D5 D4 D3 D2 D1 D0 out
+M1 2 2 1 1 pfet W=12U L=0.2u
+M2 3 2 1 1  pfet W=12U L=0.2u
+M3 2 out 6 1x nfet W=18U L=0.2u
+M4 3 in_p 6 1x nfet W=18U L=0.2u
+M5 6 7 1x 1x nfet W=1U L=1u
+Rx1 1 7 2MEG
+M7 7 7 1x 1x nfet W=1U L=1u
+M8 out 3 1 1 pfet W=20U L=0.2u
+C1 3 out 2pf
+M9 out 7 1x 1x nfet W=0.4U L=0.2u
+
+R1 D9_ in_p 12k
+R2 i in_p 6k
+R3 D8_ i 12k
+R4 h i 6k
+R5 D7_ h 12k
+R6 g h 6k
+R7 D6_ g 12k
+R8 f g 6k
+R9 D5_ f 12k
+R10 e f 6k
+R11 D4_ e 12k
+R12 d e 6k
+R13 D3_ d 12k
+R14 c d 6k
+R15 D2_ c 12k
+R16 b c 6k
+R17 D1_ b 12k
+R18 a b 6k
+R19 D0_ a 12k
+R20 a 0 12k
+
+X1  D0 D0_ vref 1 0 switch
+X2  D1 D1_ vref 1 0 switch
+X3  D2 D2_ vref 1 0 switch
+X4  D3 D3_ vref 1 0 switch
+X5  D4 D4_ vref 1 0 switch
+X6  D5 D5_ vref 1 0 switch
+X7  D6 D6_ vref 1 0 switch
+X8  D7 D7_ vref 1 0 switch
+X9  D8 D8_ vref 1 0 switch
+X10 D9 D9_ vref 1 0 switch
+
+.ends DAC
+
+.SUBCKT switch data node vref s o
+m1t node data_bar vref s pfet W=4u L=0.2u
+m2t node data_bar o o nfet W=1u L=0.2u
+m3t data_bar data s s pfet W=1.2u L=0.2u
+m4t data_bar data o o nfet W=0.6u L=0.2u
+.ENDS switch
+
+V9 D9 0 PULSE(1.8V 0 1p 1n 1n 51200n 102400n)
+V8 D8 0 PULSE(1.8V 0 1p 1n 1n 25600n 51200n)
+V7 D7 0 PULSE(1.8V 0 1p 1n 1n 12800n 25600n)
+V6 D6 0 PULSE(1.8V 0 1p 1n 1n 6400n 12800n)
+V5 D5 0 PULSE(1.8V 0 1p 1n 1n 3200n 6400n)
+V4 D4 0 PULSE(1.8V 0 1p 1n 1n 1600n 3200n)
+V3 D3 0 PULSE(1.8V 0 1p 1n 1n 800n 1600n)
+V2 D2 0 PULSE(1.8V 0 1p 1n 1n 400n 800n)
+V1 D1 0 PULSE(1.8V 0 1p 1n 1n 200n 400n)
+V0 D0 0 PULSE(1.8V 0 1p 1n 1n 100n 200n)
+
+Vd_vref vref 0 3.3V
+Vdd 1 0 3.3
+Vss 1x 0 -3.3
+X1 1 1x 0 vref D9 D8 D7 D6 D5 D4 D3 D2 D1 D0 out DAC
+.include osu018.lib
+.tran 1ns 103us
+.end
