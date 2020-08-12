@@ -3,6 +3,24 @@ This repository will maintain simulation files and other relevant files of the R
 
 *Note: Circuit requires further optimization to improve performance. Design yet to be modified.*
 
+
+Table of contents
+=================
+<!--ts-->
+   * [A Glance at the R-2R DAC IP](## A Glance at the R-2R DAC IP)
+   * [Table of contents](#table-of-contents)
+   * [Power Tool Strategy](#power-tool-strategy)
+   * [Inputs for TCL Power Tool](#inputs-for-tcl-power-tool)
+   * [TCL Power Tool with examples](#tcl-power-tool-with-examples)
+   * [TCL Power Tool Outputs Interpretation](#tcl-power-tool-outputs-interpretation)
+   * [Future Work](#future-work)
+   * [TCL Power Tool Usage](#tcl-power-tool-usage)
+      * [Dependencies](#dependencies)
+      * [Steps to run TCL Power Tool](#steps-to-run-tcl-power-tool)
+   * [Circuits Power Values](#circuits-power-values)
+   * [Contact Information](#contact-information)
+<!--te-->
+
 ## A Glance at the R-2R DAC IP
 
 The  Design Specifications of the DAC Circuit can be found [here](/Documentation/Specifications.pdf).
