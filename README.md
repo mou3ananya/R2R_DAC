@@ -68,7 +68,7 @@ $  git clone https://github.com/sherylcorina/R2R_DAC
 $  cd R2R_DAC/Simulation/PreLayout/DAC_v1.1/
 ```
 
-### To obtain the Transfer Curve of the R-2R DAC for 1024 Combinations
+### Transfer Curve of the R-2R DAC [0-1023]
 
 Run the netlist file using the following command.
 
