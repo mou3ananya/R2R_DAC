@@ -11,7 +11,7 @@ The  Design Specifications of the DAC Circuit can be found [here](/Documentation
 ## Block Diagram of the R-2R DAC IP
 
  <p align="center">
-  <img width="700" height="450" src="/Images/block.png">
+  <img width="750" height="450" src="/Images/block.png">
 </p>
 
 ## Circuit Diagram of the R-2R DAC IP
