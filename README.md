@@ -7,8 +7,14 @@ This repository will maintain simulation files and other relevant files of the R
 Table of contents
 =================
 <!--ts-->
-   * [A Glance at the R-2R DAC IP](##-A-Glance-at-the-R-2R-DAC-IP)
-   * [Acknowledgments](##Acknowledgments)
+   * [A Glance at the R-2R DAC IP](#a-glance-at-the-r-2r-dac-ip)
+   * [Block Diagram of the R-2R DAC IP](#block-diagram-of-the-r-2r-dac-ip)
+   * [Circuit Diagram of the R-2R DAC IP](#R2R_DAC#circuit-diagram-of-the-r-2r-dac-ip)
+   * [About Ngspice](#about-ngspice)
+   * [Running the Simulation](#running-the-simulation)
+   * [Pre-Layout Simulation](#pre-layout-simulation)
+   * [Issues | Improvements | Future Work](#issues--improvements--future-work)
+   * [Acknowledgments](#acknowledgments)
    * [Contact Information](#contact-information)
 <!--te-->
 
