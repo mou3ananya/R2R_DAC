@@ -9,7 +9,7 @@ Table of contents
 <!--ts-->
    * [A Glance at the R-2R DAC IP](#a-glance-at-the-r-2r-dac-ip)
    * [Block Diagram of the R-2R DAC IP](#block-diagram-of-the-r-2r-dac-ip)
-   * [Circuit Diagram of the R-2R DAC IP](#R2R_DAC#circuit-diagram-of-the-r-2r-dac-ip)
+   * [Circuit Diagram of the R-2R DAC IP](#circuit-diagram-of-the-r-2r-dac-ip)
    * [About Ngspice](#about-ngspice)
    * [Running the Simulation](#running-the-simulation)
    * [Pre-Layout Simulation](#pre-layout-simulation)
