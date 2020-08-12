@@ -8,16 +8,7 @@ Table of contents
 =================
 <!--ts-->
    * [A Glance at the R-2R DAC IP](##-A-Glance-at-the-R-2R-DAC-IP)
-   * [Table of contents](#table-of-contents)
-   * [Power Tool Strategy](#power-tool-strategy)
-   * [Inputs for TCL Power Tool](#inputs-for-tcl-power-tool)
-   * [TCL Power Tool with examples](#tcl-power-tool-with-examples)
-   * [TCL Power Tool Outputs Interpretation](#tcl-power-tool-outputs-interpretation)
-   * [Future Work](#future-work)
-   * [TCL Power Tool Usage](#tcl-power-tool-usage)
-      * [Dependencies](#dependencies)
-      * [Steps to run TCL Power Tool](#steps-to-run-tcl-power-tool)
-   * [Circuits Power Values](#circuits-power-values)
+   * [Acknowledgments](##Acknowledgments)
    * [Contact Information](#contact-information)
 <!--te-->
 
