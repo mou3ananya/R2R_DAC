@@ -7,7 +7,7 @@ This repository will maintain simulation files and other relevant files of the R
 Table of contents
 =================
 <!--ts-->
-   * [A Glance at the R-2R DAC IP](## A Glance at the R-2R DAC IP)
+   * [A Glance at the R-2R DAC IP](##-A-Glance-at-the-R-2R-DAC-IP)
    * [Table of contents](#table-of-contents)
    * [Power Tool Strategy](#power-tool-strategy)
    * [Inputs for TCL Power Tool](#inputs-for-tcl-power-tool)
